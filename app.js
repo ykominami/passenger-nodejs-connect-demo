@@ -4,7 +4,7 @@ var http = require('http');
 var app = connect();
 
 app.use(function(req, res){
-  res.end('Hello from Node.js/io.js + Connect.js!\n');
+  res.end('Hello from Node.js/io.js + Connect.js! YK\n');
 })
 
 http.createServer(app).listen(3000);
